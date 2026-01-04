@@ -24,6 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
+INPUT_CSV = os.getenv('INPUT_CSV', 'Futures Stocks List.csv')
 PROXIMITY_PERCENTAGE = float(os.getenv('PROXIMITY_PERCENTAGE', '10'))  # Default 10%
 DATA_DAYS = 60  # Days of historical data to fetch
 LOOKBACK_DAYS = 5  # Days to check for EMA touch
@@ -234,7 +235,7 @@ def get_ticker_mapping():
         'Titan': 'TITAN',
         'Asian Paints': 'ASIANPAINT',
         'Wipro': 'WIPRO',
-        'Adani': 'ADANIENT',
+        'Adani Enterprises': 'ADANIENT',
         'Tata Motors': 'TATAMOTORS',
         'Power Grid': 'POWERGRID',
         'Nestle': 'NESTLEIND',
@@ -253,7 +254,7 @@ def get_ticker_mapping():
         'IndusInd Bank': 'INDUSINDBK',
         'Britannia': 'BRITANNIA',
         'Hero MotoCorp': 'HEROMOTOCO',
-        'BEL': 'BEL',
+        'Bharat Electronics': 'BEL',
         'Eicher': 'EICHERMOT',
         'Adani Ports': 'ADANIPORTS',
         'Adani Power': 'ADANIPOWER',
@@ -270,12 +271,10 @@ def get_ticker_mapping():
         'Siemens': 'SIEMENS',
         'Havells': 'HAVELLS',
         'ABB': 'ABB',
-        'Bharat Electronics': 'BEL',
         'Indian Oil': 'IOC',
         'Bharat Petroleum': 'BPCL',
         'Hindustan Petroleum': 'HINDPETRO',
         'Vedanta': 'VEDL',
-        'Adani Enterprises': 'ADANIENT',
         'Trent': 'TRENT',
         'DLF': 'DLF',
         'Berger Paints': 'BERGEPAINT',
@@ -313,10 +312,14 @@ def read_stock_list(filename):
             
             # If no mapping found, try to derive from company name
             if not ticker:
-                # Take first word and convert to uppercase
-                ticker = company_name.split()[0].upper()
-                # Remove common suffixes
-                ticker = ticker.replace('LIMITED', '').replace('LTD', '').strip()
+                # Extract potential ticker from first significant word
+                words = company_name.split()
+                if words:
+                    # Use first word as base, clean up common suffixes
+                    ticker = words[0].upper()
+                    # If it's a common word, try second word
+                    if ticker in ['THE', 'M/S', 'SHRI', 'SRI']:
+                        ticker = words[1].upper() if len(words) > 1 else ticker
             
             # Add .NS suffix for NSE (National Stock Exchange of India)
             symbol = f"{ticker}.NS"
@@ -339,7 +342,7 @@ def main():
     logger.info("=" * 70)
     
     # Read stock list
-    stock_list = read_stock_list('Futures Stocks List.csv')
+    stock_list = read_stock_list(INPUT_CSV)
     
     # Analyze stocks
     results = []
