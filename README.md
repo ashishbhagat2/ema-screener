@@ -20,15 +20,21 @@ These conditions often indicate a potential continuation of the uptrend after a 
 - ✅ Identifies consolidation patterns based on volatility analysis
 - ✅ Generates sorted results (stocks closest to EMA appear first)
 - ✅ Automated daily execution via GitHub Actions
-- ✅ Comprehensive error handling and logging
-- ✅ Configurable proximity percentage
+- ✅ Comprehensive error handling and retry logic
+- ✅ Configurable thresholds via environment variables
+- ✅ Debug mode with detailed logging
+- ✅ Statistics summary showing pass/fail counts
+- ✅ Debug CSV with all stocks analyzed
+- ✅ Rate limiting to avoid API blocks
+- ✅ EMA validation (checks for NaN, zero, insufficient data)
 
 ## Files
 
-- **`screener.py`**: Main screening logic
+- **`screener.py`**: Main screening logic with comprehensive filtering and logging
 - **`requirements.txt`**: Python dependencies
 - **`Futures Stocks List.csv`**: Input file with 200 stock names
-- **`ema_screener_results.csv`**: Output file with screening results (generated after first run)
+- **`ema_screener_results.csv`**: Output file with stocks that passed all criteria (generated after run)
+- **`debug_analysis.csv`**: Debug output with all stocks analyzed (generated after run)
 - **`.github/workflows/daily-screener.yml`**: GitHub Actions automation workflow
 
 ## Installation
@@ -85,7 +91,11 @@ To manually trigger the workflow:
 
 ## Output Format
 
-The `ema_screener_results.csv` file contains the following columns:
+The screener generates two CSV files:
+
+### 1. ema_screener_results.csv
+
+Contains only stocks that passed all criteria:
 
 | Column | Description |
 |--------|-------------|
@@ -95,9 +105,34 @@ The `ema_screener_results.csv` file contains the following columns:
 | **10 EMA** | Current 10-period EMA value |
 | **Distance from EMA (%)** | Percentage distance above EMA |
 | **Last Touch Date** | Date when price last touched EMA |
+| **Volatility Ratio** | ATR/Price ratio (lower = more consolidation) |
 | **Analysis Date** | Date of analysis |
 
 Results are sorted by "Distance from EMA (%)" with stocks closest to EMA appearing first.
+
+### 2. debug_analysis.csv
+
+Contains ALL stocks analyzed with detailed information:
+
+| Column | Description |
+|--------|-------------|
+| **Stock Symbol** | Ticker symbol |
+| **Company Name** | Full company name |
+| **Current Price** | Latest closing price |
+| **10 EMA** | Current 10-period EMA value |
+| **In Uptrend** | Boolean - price above EMA |
+| **Distance %** | Percentage distance from EMA |
+| **EMA Touched** | Boolean - touched in lookback period |
+| **Touch Date** | Date of last touch |
+| **Touch Distance %** | How close the touch was |
+| **Is Consolidating** | Boolean - meets consolidation criteria |
+| **Volatility Ratio** | ATR/Price ratio |
+| **Avg Distance from EMA** | Average distance over consolidation period |
+| **EMA Rising** | Boolean - EMA trending up |
+| **Final Result** | PASS or FAIL |
+| **Failure Reason** | Why the stock failed (if applicable) |
+
+This debug file helps you understand why stocks didn't pass the screening criteria.
 
 ## Interpreting Results
 
@@ -148,15 +183,16 @@ This gives more weight to recent prices compared to a Simple Moving Average (SMA
 
 1. **Uptrend Check**: `Current Price > 10 EMA`
 
-2. **Recent Touch Check**: In the last 5 days:
-   - Daily low came within 2% of EMA, OR
+2. **Recent Touch Check**: In the last 7 days (configurable via LOOKBACK_DAYS):
+   - Daily low came within 5% of EMA (configurable via EMA_TOUCH_TOLERANCE), OR
    - Closing price was at or below EMA
 
 3. **Consolidation Check**: Over the last 10 days:
-   - Average True Range (ATR) / Price < 3% (low volatility)
-   - Average distance from EMA < 15%
+   - Average True Range (ATR) / Price < 5% (configurable via CONSOLIDATION_VOLATILITY_THRESHOLD) - indicates low volatility
+   - Average distance from EMA < 20% - price staying close to EMA
+   - EMA is rising - confirms uptrend
 
-4. **Proximity Check**: `0% < (Price - EMA) / EMA × 100 < 10%`
+4. **Proximity Check**: `0% < (Price - EMA) / EMA × 100 < 10%` (configurable via PROXIMITY_PERCENTAGE)
 
 ### Error Handling
 
@@ -170,20 +206,151 @@ The screener includes robust error handling:
 
 ### Environment Variables
 
-- `PROXIMITY_PERCENTAGE`: Maximum percentage above EMA (default: 10)
+You can configure the screener behavior using the following environment variables:
+
+- **`PROXIMITY_PERCENTAGE`**: Maximum percentage above EMA (default: 10)
+  - Example: `PROXIMITY_PERCENTAGE=15 python screener.py`
+  
+- **`LOOKBACK_DAYS`**: Days to check for EMA touch (default: 7)
+  - Example: `LOOKBACK_DAYS=10 python screener.py`
+  
+- **`CONSOLIDATION_VOLATILITY_THRESHOLD`**: Maximum volatility ratio for consolidation (default: 0.05 = 5%)
+  - Example: `CONSOLIDATION_VOLATILITY_THRESHOLD=0.07 python screener.py`
+  
+- **`EMA_TOUCH_TOLERANCE`**: Tolerance for EMA touch detection (default: 0.05 = 5%)
+  - Example: `EMA_TOUCH_TOLERANCE=0.03 python screener.py`
+  
+- **`DEBUG`**: Enable detailed debug logging (default: false)
+  - Example: `DEBUG=true python screener.py`
+
+### Running with Custom Configuration
+
+You can combine multiple environment variables:
+
+```bash
+DEBUG=true PROXIMITY_PERCENTAGE=15 LOOKBACK_DAYS=10 python screener.py
+```
 
 ### Code Constants
 
 Edit these in `screener.py`:
 - `DATA_DAYS`: Days of historical data to fetch (default: 60)
-- `LOOKBACK_DAYS`: Days to check for EMA touch (default: 5)
 - `EMA_PERIOD`: EMA period (default: 10)
+- `API_DELAY`: Delay between API calls in seconds (default: 0.5)
 
 ## Troubleshooting
 
+### Understanding the Screening Criteria
+
+The screener applies four key criteria in sequence. A stock must pass ALL of them:
+
+1. **Uptrend Check**: Current price must be above the 10 EMA
+   - Why: We only want stocks in an uptrend
+   - Fails if: Price is below or equal to EMA
+
+2. **Proximity Check**: Price must be within 0-10% above the 10 EMA (configurable)
+   - Why: We want stocks close to support, not extended
+   - Fails if: Price is more than PROXIMITY_PERCENTAGE above EMA
+
+3. **EMA Touch Check**: Price must have touched/tested the EMA within the last 7 days (configurable)
+   - Why: Confirms recent pullback to support
+   - How it works: Checks if the low of any candle came within 5% of EMA, or price crossed below EMA
+   - Fails if: No touch detected in LOOKBACK_DAYS
+
+4. **Consolidation Check**: Stock must show consolidation behavior
+   - Why: We want stocks that are building energy, not trending
+   - Criteria:
+     - Low volatility: ATR/Price < 5% (CONSOLIDATION_VOLATILITY_THRESHOLD)
+     - Staying close to EMA: Average distance < 20%
+     - EMA is rising: Confirms uptrend
+   - Fails if: Any of the above criteria not met
+
 ### No stocks match criteria
 
-This is normal on some days. Market conditions vary, and some days may have fewer stocks meeting all criteria.
+This is normal and can happen due to:
+
+1. **Current market conditions**: Some days have fewer setups
+2. **Criteria too strict**: Consider adjusting thresholds
+
+**How to adjust:**
+
+If you're getting too few results, try:
+```bash
+# Increase proximity range to 15%
+PROXIMITY_PERCENTAGE=15 python screener.py
+
+# Increase lookback period to 10 days
+LOOKBACK_DAYS=10 python screener.py
+
+# Relax consolidation threshold to 7%
+CONSOLIDATION_VOLATILITY_THRESHOLD=0.07 python screener.py
+
+# Increase EMA touch tolerance to 7%
+EMA_TOUCH_TOLERANCE=0.07 python screener.py
+```
+
+If you're getting too many results, try:
+```bash
+# Decrease proximity range to 5%
+PROXIMITY_PERCENTAGE=5 python screener.py
+
+# Stricter consolidation threshold
+CONSOLIDATION_VOLATILITY_THRESHOLD=0.03 python screener.py
+```
+
+### Using Debug Mode
+
+Enable debug mode to see detailed analysis for each stock:
+
+```bash
+DEBUG=true python screener.py
+```
+
+This will show:
+- Each stock being analyzed
+- Pass/fail status for each criterion
+- Specific values (price, EMA, distances, volatility)
+- Why each stock failed
+
+### Interpreting the Statistics Summary
+
+At the end of each run, the screener prints statistics:
+
+```
+SCREENING STATISTICS
+Total stocks analyzed: 200
+Failed - Data errors: 5
+Failed - Not in uptrend: 80
+Failed - Too far from EMA: 40
+Failed - No recent EMA touch: 50
+Failed - Not consolidating: 20
+✅ Passed all criteria: 5
+```
+
+This helps you understand:
+- Where most stocks are failing
+- Whether to adjust specific criteria
+- If market conditions are favorable
+
+### Interpreting the Debug CSV
+
+The `debug_analysis.csv` file contains ALL stocks with their scores:
+
+| Column | Meaning |
+|--------|---------|
+| **Final Result** | PASS or FAIL |
+| **Failure Reason** | Why the stock failed (if it did) |
+| **In Uptrend** | True/False |
+| **Distance %** | How far above EMA |
+| **EMA Touched** | True/False |
+| **Touch Date** | When it last touched |
+| **Is Consolidating** | True/False |
+| **Volatility Ratio** | Lower is better |
+
+Use this to:
+- Understand why specific stocks didn't make the cut
+- Identify stocks that almost passed
+- Fine-tune your thresholds
 
 ### "Insufficient data" warnings
 
@@ -191,15 +358,21 @@ Some stocks may have:
 - Recently listed (less than 60 days of trading)
 - Trading halted
 - Delisted
+- API issues
 
-These are automatically skipped.
+These are automatically skipped and don't affect results.
 
 ### Slow execution
 
-Fetching data for 200 stocks can take 10-15 minutes depending on:
+Fetching data for 200 stocks can take 10-20 minutes due to:
 - Network speed
 - yfinance API response time
-- Server load
+- Rate limiting (intentional delay to avoid blocks)
+
+The screener includes:
+- Retry logic for failed API calls
+- Rate limiting (0.5 second delay between stocks)
+- Progress indicators
 
 Consider running during off-peak hours or reducing the stock list for testing.
 

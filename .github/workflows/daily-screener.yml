@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ema_screener_results.csv
+          git add ema_screener_results.csv debug_analysis.csv
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
@@ -53,7 +53,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: screener-results
-          path: ema_screener_results.csv
+          path: |
+            ema_screener_results.csv
+            debug_analysis.csv
           retention-days: 30
           
       - name: Notify on failure
