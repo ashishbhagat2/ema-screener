@@ -204,6 +204,85 @@ def analyze_stock(symbol, company_name):
         return None
 
 
+def get_ticker_mapping():
+    """
+    Map company names to NSE ticker symbols.
+    
+    Returns:
+        dict: Mapping of company name keywords to ticker symbols
+    """
+    # Common NSE ticker symbols for major Indian stocks
+    mapping = {
+        'Reliance': 'RELIANCE',
+        'HDFC Bank': 'HDFCBANK',
+        'Bharti Airtel': 'BHARTIARTL',
+        'Tata Consultancy': 'TCS',
+        'ICICI Bank': 'ICICIBANK',
+        'State Bank': 'SBIN',
+        'Infosys': 'INFY',
+        'Bajaj Finance': 'BAJFINANCE',
+        'Larsen': 'LT',
+        'Hindustan Unilever': 'HINDUNILVR',
+        'LIC': 'LICI',
+        'Maruti': 'MARUTI',
+        'Mahindra': 'M&M',
+        'HCL Tech': 'HCLTECH',
+        'ITC': 'ITC',
+        'Kotak': 'KOTAKBANK',
+        'Sun Pharma': 'SUNPHARMA',
+        'Axis Bank': 'AXISBANK',
+        'Titan': 'TITAN',
+        'Asian Paints': 'ASIANPAINT',
+        'Wipro': 'WIPRO',
+        'Adani': 'ADANIENT',
+        'Tata Motors': 'TATAMOTORS',
+        'Power Grid': 'POWERGRID',
+        'Nestle': 'NESTLEIND',
+        'Coal India': 'COALINDIA',
+        'Tata Steel': 'TATASTEEL',
+        'Bajaj Auto': 'BAJAJ-AUTO',
+        'NTPC': 'NTPC',
+        'ONGC': 'ONGC',
+        'JSW Steel': 'JSWSTEEL',
+        'Tech Mahindra': 'TECHM',
+        'Hindalco': 'HINDALCO',
+        'UltraTech': 'ULTRACEMCO',
+        'Shriram Finance': 'SHRIRAMFIN',
+        'Tata Power': 'TATAPOWER',
+        'Grasim': 'GRASIM',
+        'IndusInd Bank': 'INDUSINDBK',
+        'Britannia': 'BRITANNIA',
+        'Hero MotoCorp': 'HEROMOTOCO',
+        'BEL': 'BEL',
+        'Eicher': 'EICHERMOT',
+        'Adani Ports': 'ADANIPORTS',
+        'Adani Power': 'ADANIPOWER',
+        'Adani Green': 'ADANIGREEN',
+        'SBI Life': 'SBILIFE',
+        'HDFC Life': 'HDFCLIFE',
+        'Cipla': 'CIPLA',
+        'Zomato': 'ZOMATO',
+        "Divi's": 'DIVISLAB',
+        'Dr Reddy': 'DRREDDY',
+        'Apollo': 'APOLLOHOSP',
+        'Godrej Consumer': 'GODREJCP',
+        'Pidilite': 'PIDILITIND',
+        'Siemens': 'SIEMENS',
+        'Havells': 'HAVELLS',
+        'ABB': 'ABB',
+        'Bharat Electronics': 'BEL',
+        'Indian Oil': 'IOC',
+        'Bharat Petroleum': 'BPCL',
+        'Hindustan Petroleum': 'HINDPETRO',
+        'Vedanta': 'VEDL',
+        'Adani Enterprises': 'ADANIENT',
+        'Trent': 'TRENT',
+        'DLF': 'DLF',
+        'Berger Paints': 'BERGEPAINT',
+    }
+    return mapping
+
+
 def read_stock_list(filename):
     """
     Read stock list from CSV file.
@@ -217,19 +296,30 @@ def read_stock_list(filename):
     try:
         df = pd.read_csv(filename)
         
-        # Extract company names from first column
-        # Try to extract ticker symbols from company names
+        # Get ticker mapping
+        ticker_map = get_ticker_mapping()
+        
+        # Extract company names and map to tickers
         stocks = []
         for idx, row in df.iterrows():
             company_name = row['Name']
-            # For Indian stocks, we need to add .NS suffix for NSE
-            # Extract a reasonable ticker from the company name
-            # This is a simplified approach - might need refinement
-            symbol = company_name.split()[0].upper()
+            
+            # Try to find ticker from mapping
+            ticker = None
+            for key, value in ticker_map.items():
+                if key.lower() in company_name.lower():
+                    ticker = value
+                    break
+            
+            # If no mapping found, try to derive from company name
+            if not ticker:
+                # Take first word and convert to uppercase
+                ticker = company_name.split()[0].upper()
+                # Remove common suffixes
+                ticker = ticker.replace('LIMITED', '').replace('LTD', '').strip()
             
             # Add .NS suffix for NSE (National Stock Exchange of India)
-            if not symbol.endswith('.NS'):
-                symbol = f"{symbol}.NS"
+            symbol = f"{ticker}.NS"
             
             stocks.append((symbol, company_name))
         
