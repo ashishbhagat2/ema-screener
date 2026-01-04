@@ -107,15 +107,16 @@ def check_ema_touch(prices, ema_values, lookback_days=7):
         
         # Check if low came within EMA_TOUCH_TOLERANCE of EMA
         if low_distance <= EMA_TOUCH_TOLERANCE:
+            # Always update to the most recent touch date
+            last_touch_date = idx.strftime('%Y-%m-%d')
             if low_distance < min_distance:
                 min_distance = low_distance
-                last_touch_date = idx.strftime('%Y-%m-%d')
         
-        # Check if price crossed below EMA
+        # Check if price crossed below EMA (actual crossing is strongest signal)
         if row['Close'] <= ema_val:
-            if 0 < min_distance:  # Reset if we found an actual crossing
-                min_distance = 0
-                last_touch_date = idx.strftime('%Y-%m-%d')
+            # Crossing below EMA is the best touch signal
+            last_touch_date = idx.strftime('%Y-%m-%d')
+            min_distance = 0
     
     touched = last_touch_date is not None
     return touched, last_touch_date, min_distance if touched else None
@@ -307,9 +308,9 @@ def analyze_stock(symbol, company_name):
         debug_info['EMA Rising'] = ema_rising
         
         if not is_consolidating:
-            if volatility_ratio >= CONSOLIDATION_VOLATILITY_THRESHOLD:
+            if volatility_ratio is not None and volatility_ratio >= CONSOLIDATION_VOLATILITY_THRESHOLD:
                 reason = f'High volatility ({volatility_ratio:.4f} >= {CONSOLIDATION_VOLATILITY_THRESHOLD})'
-            elif avg_distance >= 0.20:
+            elif avg_distance is not None and avg_distance >= 0.20:
                 reason = f'Too far from EMA on average ({avg_distance*100:.2f}%)'
             elif not ema_rising:
                 reason = 'EMA not rising'
@@ -482,6 +483,15 @@ def read_stock_list(filename):
 
 def main():
     """Main execution function."""
+    # Reset statistics at the start of each run
+    stats['total_analyzed'] = 0
+    stats['failed_uptrend'] = 0
+    stats['failed_proximity'] = 0
+    stats['failed_ema_touch'] = 0
+    stats['failed_consolidation'] = 0
+    stats['passed_all'] = 0
+    stats['data_errors'] = 0
+    
     logger.info("=" * 70)
     logger.info("Starting Stock Screener - 10 EMA Analysis")
     logger.info(f"Configuration:")
