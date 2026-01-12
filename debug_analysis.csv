@@ -132,7 +132,7 @@ AU.NS,AU Small Finance Bank,,,False,,False,,,False,,,False,FAIL,Insufficient dat
 SUZLON.NS,Suzlon Energy,49.2,52.09,False,,False,,,False,,,False,FAIL,Not in uptrend
 NMDC.NS,NMDC,80.48,82.52,False,,False,,,False,,,False,FAIL,Not in uptrend
 IDFC.NS,IDFC First Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DIXON.NS,Dixon Technologies,11902.0,12060.1,False,,False,,,False,,,False,FAIL,Not in uptrend
+DIXON.NS,Dixon Technologies,11902.0,12060.09,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Forge,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AUROBINDO.NS,Aurobindo Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TORRENT.NS,Torrent Power,,,False,,False,,,False,,,False,FAIL,Insufficient data
