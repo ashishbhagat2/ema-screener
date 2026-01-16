@@ -2,7 +2,7 @@ Stock Symbol,Company Name,Current Price,10 EMA,In Uptrend,Distance %,EMA Touched
 RELIANCE.NS,Reliance Industries,1458.8,1495.9,False,,False,,,False,,,False,FAIL,Not in uptrend
 HDFCBANK.NS,HDFC Bank,925.45,951.33,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARTIARTL.NS,Bharti Airtel,2022.5,2058.84,False,,False,,,False,,,False,FAIL,Not in uptrend
-TCS.NS,Tata Consultancy Services,3192.5,3235.21,False,,False,,,False,,,False,FAIL,Not in uptrend
+TCS.NS,Tata Consultancy Services,,3235.21,False,,False,,,False,,,False,FAIL,Not in uptrend
 ICICIBANK.NS,ICICI Bank,1418.4,1405.05,True,0.95,True,2026-01-14,0.08,True,0.0192,1.88,True,PASS,
 SBIN.NS,State Bank of India,1028.35,1008.6,True,1.96,True,2026-01-14,0.12,True,0.0159,1.66,True,PASS,
 INFY.NS,Infosys,1599.8,1612.49,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -12,7 +12,7 @@ HINDUNILVR.NS,Hindustan Unilever,2353.5,2369.42,False,,False,,,False,,,False,FAI
 LICI.NS,LIC of India,826.7,838.57,False,,False,,,False,,,False,FAIL,Not in uptrend
 MARUTI.NS,Maruti Suzuki,16152.0,16575.22,False,,False,,,False,,,False,FAIL,Not in uptrend
 M&M.NS,Mahindra & Mahindra,3649.5,3692.55,False,,False,,,False,,,False,FAIL,Not in uptrend
-HCLTECH.NS,HCL Technologies,1668.5,1653.42,True,0.91,True,2026-01-14,0.0,True,0.0215,0.91,True,PASS,
+HCLTECH.NS,HCL Technologies,,1653.42,False,,False,,,False,,,False,FAIL,Not in uptrend
 ITC.NS,ITC,334.75,348.07,False,,False,,,False,,,False,FAIL,Not in uptrend
 KOTAKBANK.NS,Kotak Bank,421.0,428.14,False,,False,,,False,,,False,FAIL,Not in uptrend
 SUNPHARMA.NS,Sun Pharmaceutical,1700.7,1733.52,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -132,7 +132,7 @@ AU.NS,AU Small Finance Bank,,,False,,False,,,False,,,False,FAIL,Insufficient dat
 SUZLON.NS,Suzlon Energy,49.01,50.67,False,,False,,,False,,,False,FAIL,Not in uptrend
 NMDC.NS,NMDC,83.85,82.61,True,1.5,True,2026-01-14,0.0,True,0.0302,1.93,True,PASS,
 IDFC.NS,IDFC First Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DIXON.NS,Dixon Technologies,11103.0,11737.24,False,,False,,,False,,,False,FAIL,Not in uptrend
+DIXON.NS,Dixon Technologies,11103.0,11737.23,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Forge,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AUROBINDO.NS,Aurobindo Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TORRENT.NS,Torrent Power,,,False,,False,,,False,,,False,FAIL,Insufficient data
