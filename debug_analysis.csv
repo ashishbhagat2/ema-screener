@@ -10,7 +10,7 @@ BAJFINANCE.NS,Bajaj Finance,950.25,959.52,False,,False,,,False,,,False,FAIL,Not 
 LT.NS,Larsen & Toubro,3856.4,3959.65,False,,False,,,False,,,False,FAIL,Not in uptrend
 HINDUNILVR.NS,Hindustan Unilever,2360.4,2365.41,False,,False,,,False,,,False,FAIL,Not in uptrend
 LICI.NS,LIC of India,820.4,833.5,False,,False,,,False,,,False,FAIL,Not in uptrend
-MARUTI.NS,Maruti Suzuki,15859.0,16445.0,False,,False,,,False,,,False,FAIL,Not in uptrend
+MARUTI.NS,Maruti Suzuki,15859.0,16444.99,False,,False,,,False,,,False,FAIL,Not in uptrend
 M&M.NS,Mahindra & Mahindra,3658.2,3686.31,False,,False,,,False,,,False,FAIL,Not in uptrend
 HCLTECH.NS,HCL Technologies,1698.0,1654.02,True,2.66,True,2026-01-16,0.15,True,0.0209,1.18,True,PASS,
 ITC.NS,ITC,329.2,342.66,False,,False,,,False,,,False,FAIL,Not in uptrend
