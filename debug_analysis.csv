@@ -53,7 +53,7 @@ ADANIGREEN.NS,Adani Green Energy,858.8,866.75,False,,False,,,False,,,False,FAIL,
 DIVIS.NS,Divis Laboratories,,,False,,False,,,False,,,False,FAIL,Insufficient data
 IRFC.NS,IRFC,120.1,118.91,True,1.0,True,2026-01-30,0.0,False,0.0318,2.32,False,FAIL,EMA not rising
 VARUN.NS,Varun Beverages,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BPCL.NS,Bharat Petroleum,364.5,360.27,True,1.17,True,2026-01-30,0.0,False,0.0271,1.19,False,FAIL,EMA not rising
+BPCL.NS,Bharat Petroleum,,350.38,False,,False,,,False,,,False,FAIL,Not in uptrend
 HDFCLIFE.NS,HDFC Life Insurance,727.1,729.61,False,,False,,,False,,,False,FAIL,Not in uptrend
 M&M.NS,Tech Mahindra,3431.8,3502.83,False,,False,,,False,,,False,FAIL,Not in uptrend
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -78,7 +78,7 @@ POWER.NS,Power Finance Corporation,,,False,,False,,,False,,,False,FAIL,Insuffici
 CIPLA.NS,Cipla,1320.9,1360.41,False,,False,,,False,,,False,FAIL,Not in uptrend
 UNION.NS,Union Bank of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
 HEROMOTOCO.NS,Hero Motocorp,5534.0,5553.51,False,,False,,,False,,,False,FAIL,Not in uptrend
-POLYCAB.NS,Polycab,7013.5,7045.05,False,,False,,,False,,,False,FAIL,Not in uptrend
+POLYCAB.NS,Polycab,7013.5,7045.04,False,,False,,,False,,,False,FAIL,Not in uptrend
 INDUS.NS,Indus Towers,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BOSCH.NS,Bosch,,,False,,False,,,False,,,False,FAIL,Insufficient data
 INDIAN.NS,Indian Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
