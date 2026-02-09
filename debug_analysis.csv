@@ -33,7 +33,7 @@ HINDUSTAN.NS,Hindustan Zinc,,,False,,False,,,False,,,False,FAIL,Insufficient dat
 BAJAJ-AUTO.NS,Bajaj Auto,9518.5,9538.74,False,,False,,,False,,,False,FAIL,Not in uptrend
 COALINDIA.NS,Coal India,432.8,431.96,True,0.19,True,2026-02-06,0.0,True,0.032,1.57,True,PASS,
 ADANIENT.NS,Adani Enterprises,2226.4,2137.16,True,4.18,True,2026-02-06,0.0,True,0.0371,4.4,True,PASS,
-POWERGRID.NS,Power Grid Corporation of India,292.75,276.24,True,5.98,True,2026-02-06,0.0,True,0.0308,3.56,True,PASS,
+POWERGRID.NS,Power Grid Corporation of India,,273.18,False,,False,,,False,,,False,FAIL,Not in uptrend
 NESTLEIND.NS,Nestle,1303.3,1298.66,True,0.36,True,2026-02-06,0.0,True,0.0258,0.52,True,PASS,
 AVENUE.NS,Avenue Supermarts DMart,,,False,,False,,,False,,,False,FAIL,Insufficient data
 VEDL.NS,Vedanta,671.05,679.56,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -91,7 +91,7 @@ ASHOK.NS,Ashok Leyland,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SIEMENS.NS,Siemens,3176.2,3138.08,True,1.21,True,2026-02-06,0.19,True,0.0342,3.3,True,PASS,
 ABB.NS,ABB,5816.0,5488.47,True,5.97,True,2026-02-06,0.31,True,0.0415,6.37,True,PASS,
 JINDAL.NS,Jindal Steel,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BSE.NS,BSE,2897.0,2829.56,True,2.38,True,2026-02-06,0.0,True,0.0361,2.38,True,PASS,
+BSE.NS,BSE,2897.0,2829.57,True,2.38,True,2026-02-06,0.0,True,0.0361,2.38,True,PASS,
 LODHA.NS,Lodha Developers,1055.1,1013.07,True,4.15,True,2026-02-06,0.0,True,0.0447,4.52,True,PASS,
 SWIGGY.NS,Swiggy,320.0,321.09,False,,False,,,False,,,False,FAIL,Not in uptrend
 INDIAN.NS,Indian Hotels Company,,,False,,False,,,False,,,False,FAIL,Insufficient data
