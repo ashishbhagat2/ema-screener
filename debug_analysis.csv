@@ -99,7 +99,7 @@ HINDPETRO.NS,Hindustan Petroleum,450.2,453.69,False,,False,,,False,,,False,FAIL,
 DRREDDY.NS,Dr Reddys Laboratories,1268.1,1253.13,True,1.19,True,2026-02-13,0.03,True,0.0202,1.91,True,PASS,
 BHARAT.NS,Bharat Heavy Electricals,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAX.NS,Max Healthcare Institute,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,Apollo Hospitals,7542.5,7293.52,True,3.41,True,2026-02-13,0.43,True,0.0192,2.29,True,PASS,
+APOLLOHOSP.NS,Apollo Hospitals,,7283.85,False,,False,,,False,,,False,FAIL,Not in uptrend
 CG.NS,CG Power & Industrial Solutions,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAZAGON.NS,Mazagon Dock Shipbuilders,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UNITED.NS,United Spirits,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -160,7 +160,7 @@ MCX.NS,MCX,2340.6,2414.36,False,,False,,,False,,,False,FAIL,Not in uptrend
 IRCTC.NS,IRCTC,617.5,623.01,False,,False,,,False,,,False,FAIL,Not in uptrend
 COFORGE.NS,Coforge,1361.8,1524.41,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Dynamics,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,APL Apollo Tubes,7542.5,7293.52,True,3.41,True,2026-02-13,0.43,True,0.0192,2.29,True,PASS,
+APOLLOHOSP.NS,APL Apollo Tubes,,7283.85,False,,False,,,False,,,False,FAIL,Not in uptrend
 MPHASIS.NS,Mphasis,2458.4,2602.18,False,,False,,,False,,,False,FAIL,Not in uptrend
 BIOCON.NS,Biocon,377.95,372.82,True,1.38,True,2026-02-13,0.0,True,0.0296,0.73,True,PASS,
 KALYAN.NS,Kalyan Jewellers,,,False,,False,,,False,,,False,FAIL,Insufficient data
