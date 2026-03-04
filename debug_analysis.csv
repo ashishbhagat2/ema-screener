@@ -132,7 +132,7 @@ AU.NS,AU Small Finance Bank,,,False,,False,,,False,,,False,FAIL,Insufficient dat
 SUZLON.NS,Suzlon Energy,40.95,43.74,False,,False,,,False,,,False,FAIL,Not in uptrend
 NMDC.NS,NMDC,81.26,81.06,True,0.25,True,2026-03-02,0.0,True,0.0277,1.13,True,PASS,
 IDFC.NS,IDFC First Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DIXON.NS,Dixon Technologies,10151.0,10655.23,False,,False,,,False,,,False,FAIL,Not in uptrend
+DIXON.NS,Dixon Technologies,10151.0,10655.22,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Forge,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AUROBINDO.NS,Aurobindo Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TORRENT.NS,Torrent Power,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -197,5 +197,5 @@ MANAPPURAM.NS,Manappuram Finance,282.0,295.17,False,,False,,,False,,,False,FAIL,
 PNB.NS,PNB Housing Finance,126.05,127.91,False,,False,,,False,,,False,FAIL,Not in uptrend
 PIRAMAL.NS,Piramal Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANDHAN.NS,Bandhan Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-AMBER.NS,Amber Enterprises,7884.5,7803.31,True,1.04,True,2026-03-02,1.01,True,0.0266,3.56,True,PASS,
+AMBER.NS,Amber Enterprises,7884.5,7803.3,True,1.04,True,2026-03-02,1.01,True,0.0266,3.56,True,PASS,
 INOX.NS,Inox Wind,,,False,,False,,,False,,,False,FAIL,Insufficient data
