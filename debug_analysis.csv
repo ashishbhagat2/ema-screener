@@ -11,7 +11,7 @@ LT.NS,Larsen & Toubro,3949.8,4111.84,False,,False,,,False,,,False,FAIL,Not in up
 HINDUNILVR.NS,Hindustan Unilever,2225.7,2300.58,False,,False,,,False,,,False,FAIL,Not in uptrend
 LICI.NS,LIC of India,822.3,847.41,False,,False,,,False,,,False,FAIL,Not in uptrend
 MARUTI.NS,Maruti Suzuki,14159.0,14616.71,False,,False,,,False,,,False,FAIL,Not in uptrend
-M&M.NS,Mahindra & Mahindra,3332.5,3388.11,False,,False,,,False,,,False,FAIL,Not in uptrend
+M&M.NS,Mahindra & Mahindra,3332.5,3388.1,False,,False,,,False,,,False,FAIL,Not in uptrend
 HCLTECH.NS,HCL Technologies,1356.7,1388.35,False,,False,,,False,,,False,FAIL,Not in uptrend
 ITC.NS,ITC,309.7,315.59,False,,False,,,False,,,False,FAIL,Not in uptrend
 KOTAKBANK.NS,Kotak Bank,399.8,412.99,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -55,7 +55,7 @@ IRFC.NS,IRFC,99.47,103.17,False,,False,,,False,,,False,FAIL,Not in uptrend
 VARUN.NS,Varun Beverages,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BPCL.NS,Bharat Petroleum,352.75,368.05,False,,False,,,False,,,False,FAIL,Not in uptrend
 HDFCLIFE.NS,HDFC Life Insurance,668.55,702.26,False,,False,,,False,,,False,FAIL,Not in uptrend
-M&M.NS,Tech Mahindra,3332.5,3388.11,False,,False,,,False,,,False,FAIL,Not in uptrend
+M&M.NS,Tech Mahindra,3332.5,3388.1,False,,False,,,False,,,False,FAIL,Not in uptrend
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TRENT.NS,Trent,3722.8,3872.35,False,,False,,,False,,,False,FAIL,Not in uptrend
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
