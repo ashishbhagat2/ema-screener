@@ -28,7 +28,7 @@ BEL.NS,Bharat Electronics,421.6,419.31,True,0.55,True,2026-04-02,0.0,False,0.030
 JSWSTEEL.NS,JSW Steel,1141.3,1144.48,False,,False,,,False,,,False,FAIL,Not in uptrend
 WIPRO.NS,Wipro,194.91,191.85,True,1.6,True,2026-04-02,0.0,False,0.0235,1.78,False,FAIL,EMA not rising
 ETERNAL.NS,Eternal,231.72,233.38,False,,False,,,False,,,False,FAIL,Not in uptrend
-ASIANPAINT.NS,Asian Paints,2169.0,2205.85,False,,False,,,False,,,False,FAIL,Not in uptrend
+ASIANPAINT.NS,Asian Paints,2169.0,2205.86,False,,False,,,False,,,False,FAIL,Not in uptrend
 HINDUSTAN.NS,Hindustan Zinc,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BAJAJ-AUTO.NS,Bajaj Auto,8758.5,8938.25,False,,False,,,False,,,False,FAIL,Not in uptrend
 COALINDIA.NS,Coal India,449.35,450.06,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -104,7 +104,7 @@ CG.NS,CG Power & Industrial Solutions,,,False,,False,,,False,,,False,FAIL,Insuff
 MAZAGON.NS,Mazagon Dock Shipbuilders,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UNITED.NS,United Spirits,,,False,,False,,,False,,,False,FAIL,Insufficient data
 REC.NS,REC,,,False,,False,,,False,,,False,FAIL,Insufficient data
-PERSISTENT.NS,Persistent Systems,5227.7,4921.98,True,6.21,True,2026-04-02,0.3,True,0.0338,2.38,True,PASS,
+PERSISTENT.NS,Persistent Systems,5227.7,4921.97,True,6.21,True,2026-04-02,0.3,True,0.0338,2.38,True,PASS,
 MARICO.NS,Marico,761.35,748.71,True,1.69,True,2026-04-02,0.0,False,0.0238,1.44,False,FAIL,EMA not rising
 ICICI.NS,ICICI Lombard General Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ICICI.NS,ICICI Prudential Life Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -153,7 +153,7 @@ STEEL.NS,Steel Authority of India,,,False,,False,,,False,,,False,FAIL,Insufficie
 NALCO.NS,NALCO,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PATANJALI.NS,Patanjali Foods,466.95,474.08,False,,False,,,False,,,False,FAIL,Not in uptrend
 LAURUS.NS,Laurus Labs,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GLENMARK.NS,Glenmark Pharmaceuticals,2091.8,2128.9,False,,False,,,False,,,False,FAIL,Not in uptrend
+GLENMARK.NS,Glenmark Pharmaceuticals,2091.8,2128.89,False,,False,,,False,,,False,FAIL,Not in uptrend
 MAX.NS,Max Financial Services,,,False,,False,,,False,,,False,FAIL,Insufficient data
 COLGATE.NS,Colgate Palmolive,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MCX.NS,MCX,2443.0,2449.88,False,,False,,,False,,,False,FAIL,Not in uptrend
