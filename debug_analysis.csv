@@ -61,7 +61,7 @@ TRENT.NS,Trent,4242.3,4216.46,True,0.61,True,2026-05-08,0.0,True,0.0212,1.22,Tru
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PIDILITIND.NS,Pidilite Industries,1476.0,1411.09,True,4.6,True,2026-05-08,0.0,True,0.0187,1.6,True,PASS,
 CHOLAMANDALAM.NS,Cholamandalam Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BRITANNIA.NS,Britannia Industries,5520.0,5713.78,False,,False,,,False,,,False,FAIL,Not in uptrend
+BRITANNIA.NS,Britannia Industries,5520.0,5715.78,False,,False,,,False,,,False,FAIL,Not in uptrend
 PUNJAB.NS,Punjab National Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 CANARA.NS,Canara Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AMBUJA.NS,Ambuja Cements,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -145,7 +145,7 @@ PHOENIX.NS,Phoenix Mills,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANK.NS,Bank of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UPL.NS,UPL,646.0,646.68,False,,False,,,False,,,False,FAIL,Not in uptrend
 ORACLE.NS,Oracle Financial Services Software,,,False,,False,,,False,,,False,FAIL,Insufficient data
-ALKEM.NS,Alkem Laboratories,5585.5,5486.9,True,1.8,True,2026-05-08,0.0,True,0.0307,1.64,True,PASS,
+ALKEM.NS,Alkem Laboratories,5585.5,5485.33,True,1.83,True,2026-05-08,0.0,True,0.0235,1.23,True,PASS,
 FEDERAL.NS,Federal Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 OBEROI.NS,Oberoi Realty,,,False,,False,,,False,,,False,FAIL,Insufficient data
 GODREJ.NS,Godrej Properties,,,False,,False,,,False,,,False,FAIL,Insufficient data
