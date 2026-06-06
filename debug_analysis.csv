@@ -57,7 +57,7 @@ BPCL.NS,Bharat Petroleum,295.0,296.74,False,,False,,,False,,,False,FAIL,Not in u
 HDFCLIFE.NS,HDFC Life Insurance,575.3,588.63,False,,False,,,False,,,False,FAIL,Not in uptrend
 M&M.NS,Tech Mahindra,3040.5,3048.77,False,,False,,,False,,,False,FAIL,Not in uptrend
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
-TRENT.NS,Trent,2774.2,3322.07,False,,False,,,False,,,False,FAIL,Not in uptrend
+TRENT.NS,Trent,2774.2,2807.16,False,,False,,,False,,,False,FAIL,Not in uptrend
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PIDILITIND.NS,Pidilite Industries,1476.6,1469.4,True,0.49,True,2026-06-05,0.0,True,0.0162,0.7,True,PASS,
 CHOLAMANDALAM.NS,Cholamandalam Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
