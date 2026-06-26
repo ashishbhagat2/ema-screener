@@ -18,7 +18,7 @@ KOTAKBANK.NS,Kotak Bank,409.0,401.87,True,1.77,True,2026-06-25,0.02,True,0.0159,
 SUNPHARMA.NS,Sun Pharmaceutical,1862.8,1842.88,True,1.08,True,2026-06-25,0.06,True,0.013,1.15,True,PASS,
 AXISBANK.NS,Axis Bank,1377.2,1357.15,True,1.48,True,2026-06-25,0.24,True,0.0157,2.35,True,PASS,
 TITAN.NS,Titan,4291.3,4301.9,False,,False,,,False,,,False,FAIL,Not in uptrend
-ULTRACEMCO.NS,UltraTech Cement,11489.0,11351.33,True,1.21,True,2026-06-25,0.12,True,0.0173,1.28,True,PASS,
+ULTRACEMCO.NS,UltraTech Cement,11489.0,11351.33,True,1.21,True,2026-06-25,0.12,True,0.0173,1.29,True,PASS,
 NTPC.NS,NTPC,352.05,359.49,False,,False,,,False,,,False,FAIL,Not in uptrend
 BAJAJ.NS,Bajaj Finserv,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ADANIPORTS.NS,Adani Ports & SEZ,1796.0,1810.51,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -41,7 +41,7 @@ IOC.NS,Indian Oil Corporation,143.89,143.54,True,0.24,True,2026-06-25,0.03,True,
 TATASTEEL.NS,Tata Steel,188.71,195.24,False,,False,,,False,,,False,FAIL,Not in uptrend
 HINDALCO.NS,Hindalco Industries,953.2,1000.62,False,,False,,,False,,,False,FAIL,Not in uptrend
 SBILIFE.NS,SBI Life Insurance,1744.9,1774.93,False,,False,,,False,,,False,FAIL,Not in uptrend
-EICHERMOT.NS,Eicher Motors,7598.0,7524.11,True,0.98,True,2026-06-25,0.26,True,0.0214,2.23,True,PASS,
+EICHERMOT.NS,Eicher Motors,7598.0,7524.1,True,0.98,True,2026-06-25,0.26,True,0.0214,2.23,True,PASS,
 INTERGLOBE.NS,Interglobe Aviation,,,False,,False,,,False,,,False,FAIL,Insufficient data
 GRASIM.NS,Grasim Industries,3126.6,3134.32,False,,False,,,False,,,False,FAIL,Not in uptrend
 JIO.NS,Jio Financial Services,,,False,,False,,,False,,,False,FAIL,Insufficient data
