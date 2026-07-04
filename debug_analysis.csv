@@ -11,7 +11,7 @@ LT.NS,Larsen & Toubro,4026.6,4113.79,False,,False,,,False,,,False,FAIL,Not in up
 HINDUNILVR.NS,Hindustan Unilever,2201.2,2173.93,True,1.25,True,2026-07-03,0.0,True,0.0164,0.8,True,PASS,
 LICI.NS,LIC of India,430.25,427.09,True,0.74,True,2026-07-03,0.01,True,0.0178,2.27,True,PASS,
 MARUTI.NS,Maruti Suzuki,14366.0,13947.77,True,3.0,True,2026-07-03,0.0,True,0.0239,2.1,True,PASS,
-M&M.NS,Mahindra & Mahindra,3136.9,3098.4,True,1.24,True,2026-07-03,0.0,True,0.0219,1.33,True,PASS,
+M&M.NS,Mahindra & Mahindra,3136.9,3093.8,True,1.39,True,2026-07-03,0.0,True,0.0219,1.25,True,PASS,
 HCLTECH.NS,HCL Technologies,1139.0,1101.46,True,3.41,True,2026-07-03,0.0,False,0.0265,2.5,False,FAIL,EMA not rising
 ITC.NS,ITC,289.95,289.6,True,0.12,True,2026-07-03,0.0,True,0.0106,0.35,True,PASS,
 KOTAKBANK.NS,Kotak Bank,396.75,399.38,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -55,7 +55,7 @@ IRFC.NS,IRFC,90.57,92.51,False,,False,,,False,,,False,FAIL,Not in uptrend
 VARUN.NS,Varun Beverages,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BPCL.NS,Bharat Petroleum,308.15,307.15,True,0.32,True,2026-07-03,0.0,True,0.0218,0.99,True,PASS,
 HDFCLIFE.NS,HDFC Life Insurance,567.7,577.04,False,,False,,,False,,,False,FAIL,Not in uptrend
-M&M.NS,Tech Mahindra,3136.9,3098.4,True,1.24,True,2026-07-03,0.0,True,0.0219,1.33,True,PASS,
+M&M.NS,Tech Mahindra,3136.9,3093.8,True,1.39,True,2026-07-03,0.0,True,0.0219,1.25,True,PASS,
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TRENT.NS,Trent,3340.6,3237.75,True,3.18,True,2026-07-03,1.56,True,0.0231,3.84,True,PASS,
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -99,7 +99,7 @@ HINDPETRO.NS,Hindustan Petroleum,399.25,397.82,True,0.36,True,2026-07-03,0.0,Tru
 DRREDDY.NS,Dr Reddys Laboratories,1374.1,1340.75,True,2.49,True,2026-07-03,0.04,True,0.0245,2.26,True,PASS,
 BHARAT.NS,Bharat Heavy Electricals,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAX.NS,Max Healthcare Institute,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,Apollo Hospitals,8893.5,8641.31,True,2.92,True,2026-07-03,0.16,True,0.0155,1.24,True,PASS,
+APOLLOHOSP.NS,Apollo Hospitals,8893.5,8648.28,True,2.84,True,2026-07-03,0.21,True,0.0141,1.2,True,PASS,
 CG.NS,CG Power & Industrial Solutions,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAZAGON.NS,Mazagon Dock Shipbuilders,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UNITED.NS,United Spirits,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -160,9 +160,9 @@ MCX.NS,MCX,2814.0,2869.47,False,,False,,,False,,,False,FAIL,Not in uptrend
 IRCTC.NS,IRCTC,509.95,510.16,False,,False,,,False,,,False,FAIL,Not in uptrend
 COFORGE.NS,Coforge,1464.0,1454.85,True,0.63,True,2026-07-03,0.0,True,0.0288,1.86,True,PASS,
 BHARAT.NS,Bharat Dynamics,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,APL Apollo Tubes,8893.5,8641.31,True,2.92,True,2026-07-03,0.16,True,0.0155,1.24,True,PASS,
+APOLLOHOSP.NS,APL Apollo Tubes,8893.5,8648.28,True,2.84,True,2026-07-03,0.21,True,0.0141,1.2,True,PASS,
 MPHASIS.NS,Mphasis,2296.6,2240.89,True,2.49,True,2026-07-03,0.0,False,0.0255,1.94,False,FAIL,EMA not rising
-BIOCON.NS,Biocon,426.8,419.04,True,1.85,True,2026-07-03,0.0,True,0.0222,0.67,True,PASS,
+BIOCON.NS,Biocon,426.8,418.96,True,1.87,True,2026-07-03,0.0,True,0.0222,0.66,True,PASS,
 KALYAN.NS,Kalyan Jewellers,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TUBE.NS,Tube Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PI.NS,PI Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -177,7 +177,7 @@ CONTAINER.NS,Container Corporation of India,,,False,,False,,,False,,,False,FAIL,
 DALMIA.NS,Dalmia Bharat,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PAGE.NS,Page Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ASTRAL.NS,Astral,1385.0,1423.17,False,,False,,,False,,,False,FAIL,Not in uptrend
-PREMIER.NS,Premier Energies,2.95,2.95,True,0.07,True,2026-07-03,0.0,False,0.0536,1.24,False,FAIL,High volatility (0.0536 >= 0.05)
+PREMIER.NS,Premier Energies,2.95,2.95,False,,False,,,False,,,False,FAIL,Not in uptrend
 BLUE.NS,Blue Star,,,False,,False,,,False,,,False,FAIL,Insufficient data
 JUBILANT.NS,Jubilant FoodWorks,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TATA.NS,Tata Elxsi,,,False,,False,,,False,,,False,FAIL,Insufficient data
