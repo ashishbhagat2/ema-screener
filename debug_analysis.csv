@@ -169,7 +169,7 @@ PI.NS,PI Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 360.NS,360 One WAM,,,False,,False,,,False,,,False,FAIL,Insufficient data
 VOLTAS.NS,Voltas,1280.2,1296.05,False,,False,,,False,,,False,FAIL,Not in uptrend
 HUDCO.NS,HUDCO,215.56,209.29,True,3.0,True,2026-07-03,0.0,False,0.0239,0.78,False,FAIL,EMA not rising
-SUPREME.NS,Supreme Industries,51.06,47.73,True,6.98,True,2026-07-03,0.0,False,0.0676,2.11,True,FAIL,High volatility (0.0676 >= 0.05)
+SUPREME.NS,Supreme Industries,51.06,47.78,True,6.87,True,2026-07-03,0.0,False,0.0645,2.21,True,FAIL,High volatility (0.0645 >= 0.05)
 PETRONET.NS,Petronet LNG,275.95,279.77,False,,False,,,False,,,False,FAIL,Not in uptrend
 KEI.NS,KEI Industries,5270.5,5353.07,False,,False,,,False,,,False,FAIL,Not in uptrend
 IREDA.NS,IREDA,128.49,127.8,True,0.54,True,2026-07-03,0.06,True,0.0198,0.9,True,PASS,
