@@ -1,67 +1,67 @@
 Stock Symbol,Company Name,Current Price,10 EMA,In Uptrend,Distance %,EMA Touched,Touch Date,Touch Distance %,Is Consolidating,Volatility Ratio,Avg Distance from EMA,EMA Rising,Final Result,Failure Reason
-RELIANCE.NS,Reliance Industries,1288.6,1303.01,False,,False,,,False,,,False,FAIL,Not in uptrend
-HDFCBANK.NS,HDFC Bank,753.15,790.15,False,,False,,,False,,,False,FAIL,Not in uptrend
-BHARTIARTL.NS,Bharti Airtel,1949.0,1927.21,True,1.13,True,2026-07-22,0.0,True,0.0165,0.91,True,PASS,
-TCS.NS,Tata Consultancy Services,2208.3,2187.09,True,0.97,True,2026-07-22,0.64,True,0.0262,2.8,True,PASS,
-ICICIBANK.NS,ICICI Bank,1440.7,1430.11,True,0.74,True,2026-07-22,0.19,True,0.0175,1.38,True,PASS,
-SBIN.NS,State Bank of India,1025.0,1036.44,False,,False,,,False,,,False,FAIL,Not in uptrend
-INFY.NS,Infosys,1052.1,1073.09,False,,False,,,False,,,False,FAIL,Not in uptrend
-BAJFINANCE.NS,Bajaj Finance,1060.3,1042.4,True,1.72,True,2026-07-22,0.0,True,0.0213,1.67,True,PASS,
-LT.NS,Larsen & Toubro,3817.4,3862.62,False,,False,,,False,,,False,FAIL,Not in uptrend
-HINDUNILVR.NS,Hindustan Unilever,2154.6,2141.29,True,0.62,True,2026-07-22,0.0,False,0.0149,0.97,False,FAIL,EMA not rising
-LICI.NS,LIC of India,423.3,432.09,False,,False,,,False,,,False,FAIL,Not in uptrend
-MARUTI.NS,Maruti Suzuki,13545.0,13691.31,False,,False,,,False,,,False,FAIL,Not in uptrend
-M&M.NS,Mahindra & Mahindra,3175.3,3151.14,True,0.77,True,2026-07-22,0.0,True,0.0175,0.97,True,PASS,
-HCLTECH.NS,HCL Technologies,1237.3,1193.26,True,3.69,True,2026-07-22,0.91,True,0.0298,3.16,True,PASS,
-ITC.NS,ITC,280.8,281.32,False,,False,,,False,,,False,FAIL,Not in uptrend
-KOTAKBANK.NS,Kotak Bank,381.15,382.9,False,,False,,,False,,,False,FAIL,Not in uptrend
-SUNPHARMA.NS,Sun Pharmaceutical,1943.0,1937.5,True,0.28,True,2026-07-22,0.03,True,0.0153,1.39,True,PASS,
-AXISBANK.NS,Axis Bank,1238.4,1289.84,False,,False,,,False,,,False,FAIL,Not in uptrend
-TITAN.NS,Titan,4711.6,4619.49,True,1.99,True,2026-07-22,0.66,True,0.0142,1.71,True,PASS,
-ULTRACEMCO.NS,UltraTech Cement,11893.0,11784.6,True,0.92,True,2026-07-22,0.0,True,0.0188,1.2,True,PASS,
-NTPC.NS,NTPC,350.5,348.03,True,0.71,True,2026-07-22,0.0,False,0.0181,1.14,False,FAIL,EMA not rising
+RELIANCE.NS,Reliance Industries,1272.2,1297.41,False,,False,,,False,,,False,FAIL,Not in uptrend
+HDFCBANK.NS,HDFC Bank,747.25,782.35,False,,False,,,False,,,False,FAIL,Not in uptrend
+BHARTIARTL.NS,Bharti Airtel,1931.0,1927.9,True,0.16,True,2026-07-23,0.0,True,0.0142,0.75,True,PASS,
+TCS.NS,Tata Consultancy Services,2242.9,2197.24,True,2.08,True,2026-07-23,0.17,True,0.0263,2.89,True,PASS,
+ICICIBANK.NS,ICICI Bank,1434.6,1430.93,True,0.26,True,2026-07-23,0.19,True,0.0169,1.35,True,PASS,
+SBIN.NS,State Bank of India,1012.6,1032.11,False,,False,,,False,,,False,FAIL,Not in uptrend
+INFY.NS,Infosys,1047.4,1068.42,False,,False,,,False,,,False,FAIL,Not in uptrend
+BAJFINANCE.NS,Bajaj Finance,1039.8,1041.93,False,,False,,,False,,,False,FAIL,Not in uptrend
+LT.NS,Larsen & Toubro,3792.4,3849.85,False,,False,,,False,,,False,FAIL,Not in uptrend
+HINDUNILVR.NS,Hindustan Unilever,2161.8,2145.02,True,0.78,True,2026-07-23,0.0,False,0.0147,0.93,False,FAIL,EMA not rising
+LICI.NS,LIC of India,421.4,430.15,False,,False,,,False,,,False,FAIL,Not in uptrend
+MARUTI.NS,Maruti Suzuki,13403.0,13638.89,False,,False,,,False,,,False,FAIL,Not in uptrend
+M&M.NS,Mahindra & Mahindra,3229.7,3165.43,True,2.03,True,2026-07-23,0.0,True,0.0185,1.07,True,PASS,
+HCLTECH.NS,HCL Technologies,1244.7,1202.61,True,3.5,True,2026-07-23,1.0,True,0.0279,3.31,True,PASS,
+ITC.NS,ITC,281.3,281.31,False,,False,,,False,,,False,FAIL,Not in uptrend
+KOTAKBANK.NS,Kotak Bank,383.35,382.98,True,0.1,True,2026-07-23,0.0,False,0.0214,0.93,False,FAIL,EMA not rising
+SUNPHARMA.NS,Sun Pharmaceutical,1954.0,1940.5,True,0.7,True,2026-07-23,0.1,True,0.0136,1.2,True,PASS,
+AXISBANK.NS,Axis Bank,1223.0,1277.68,False,,False,,,False,,,False,FAIL,Not in uptrend
+TITAN.NS,Titan,4697.3,4633.64,True,1.37,True,2026-07-23,0.66,True,0.0121,1.65,True,PASS,
+ULTRACEMCO.NS,UltraTech Cement,11908.0,11807.04,True,0.86,True,2026-07-23,0.21,True,0.0184,1.26,True,PASS,
+NTPC.NS,NTPC,348.6,348.14,True,0.13,True,2026-07-23,0.0,False,0.0168,0.88,False,FAIL,EMA not rising
 BAJAJ.NS,Bajaj Finserv,,,False,,False,,,False,,,False,FAIL,Insufficient data
-ADANIPORTS.NS,Adani Ports & SEZ,1819.4,1830.31,False,,False,,,False,,,False,FAIL,Not in uptrend
-OIL.NS,Oil & Natural Gas Corporation,451.15,439.22,True,2.72,True,2026-07-22,0.14,True,0.0231,1.72,True,PASS,
+ADANIPORTS.NS,Adani Ports & SEZ,1778.5,1820.89,False,,False,,,False,,,False,FAIL,Not in uptrend
+OIL.NS,Oil & Natural Gas Corporation,458.8,442.78,True,3.62,True,2026-07-23,0.14,True,0.0226,2.07,True,PASS,
 HINDUSTAN.NS,Hindustan Aeronautics,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BEL.NS,Bharat Electronics,406.75,409.81,False,,False,,,False,,,False,FAIL,Not in uptrend
-JSWSTEEL.NS,JSW Steel,1266.9,1247.25,True,1.58,True,2026-07-22,0.0,True,0.0177,0.96,True,PASS,
-WIPRO.NS,Wipro,174.44,175.51,False,,False,,,False,,,False,FAIL,Not in uptrend
-ETERNAL.NS,Eternal,284.4,285.62,False,,False,,,False,,,False,FAIL,Not in uptrend
-ASIANPAINT.NS,Asian Paints,2692.8,2684.7,True,0.3,True,2026-07-22,0.0,False,0.017,0.58,False,FAIL,EMA not rising
+BEL.NS,Bharat Electronics,405.35,409.0,False,,False,,,False,,,False,FAIL,Not in uptrend
+JSWSTEEL.NS,JSW Steel,1246.8,1247.17,False,,False,,,False,,,False,FAIL,Not in uptrend
+WIPRO.NS,Wipro,174.82,175.38,False,,False,,,False,,,False,FAIL,Not in uptrend
+ETERNAL.NS,Eternal,287.1,285.89,True,0.42,True,2026-07-23,0.0,True,0.0322,1.11,True,PASS,
+ASIANPAINT.NS,Asian Paints,2668.8,2681.81,False,,False,,,False,,,False,FAIL,Not in uptrend
 HINDUSTAN.NS,Hindustan Zinc,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BAJAJ-AUTO.NS,Bajaj Auto,10998.5,10430.07,True,5.45,True,2026-07-22,0.38,True,0.0213,2.03,True,PASS,
-COALINDIA.NS,Coal India,428.4,430.03,False,,False,,,False,,,False,FAIL,Not in uptrend
-ADANIENT.NS,Adani Enterprises,3147.7,3154.24,False,,False,,,False,,,False,FAIL,Not in uptrend
-POWERGRID.NS,Power Grid Corporation of India,289.3,285.68,True,1.27,True,2026-07-22,0.0,True,0.0177,0.81,True,PASS,
-NESTLEIND.NS,Nestle,1493.6,1447.68,True,3.17,True,2026-07-22,0.0,True,0.02,1.03,True,PASS,
+BAJAJ-AUTO.NS,Bajaj Auto,11283.5,10585.24,True,6.6,True,2026-07-23,0.38,True,0.0231,2.53,True,PASS,
+COALINDIA.NS,Coal India,427.05,429.49,False,,False,,,False,,,False,FAIL,Not in uptrend
+ADANIENT.NS,Adani Enterprises,3010.0,3128.02,False,,False,,,False,,,False,FAIL,Not in uptrend
+POWERGRID.NS,Power Grid Corporation of India,289.8,286.43,True,1.18,True,2026-07-23,0.0,True,0.0176,0.81,True,PASS,
+NESTLEIND.NS,Nestle,1447.9,1447.72,True,0.01,True,2026-07-23,0.0,True,0.0223,0.91,True,PASS,
 AVENUE.NS,Avenue Supermarts DMart,,,False,,False,,,False,,,False,FAIL,Insufficient data
-VEDL.NS,Vedanta,262.3,264.86,False,,False,,,False,,,False,FAIL,Not in uptrend
-IOC.NS,Indian Oil Corporation,142.03,141.37,True,0.47,True,2026-07-22,0.0,True,0.0187,1.01,True,PASS,
-TATASTEEL.NS,Tata Steel,186.53,187.17,False,,False,,,False,,,False,FAIL,Not in uptrend
-HINDALCO.NS,Hindalco Industries,950.0,955.42,False,,False,,,False,,,False,FAIL,Not in uptrend
-SBILIFE.NS,SBI Life Insurance,1806.7,1823.57,False,,False,,,False,,,False,FAIL,Not in uptrend
-EICHERMOT.NS,Eicher Motors,7632.0,7510.65,True,1.62,True,2026-07-22,0.0,True,0.0168,1.22,True,PASS,
+VEDL.NS,Vedanta,264.6,264.81,False,,False,,,False,,,False,FAIL,Not in uptrend
+IOC.NS,Indian Oil Corporation,139.92,141.11,False,,False,,,False,,,False,FAIL,Not in uptrend
+TATASTEEL.NS,Tata Steel,184.23,186.64,False,,False,,,False,,,False,FAIL,Not in uptrend
+HINDALCO.NS,Hindalco Industries,955.65,955.46,True,0.02,True,2026-07-23,0.0,False,0.0199,0.66,False,FAIL,EMA not rising
+SBILIFE.NS,SBI Life Insurance,1853.5,1829.01,True,1.34,True,2026-07-23,0.0,True,0.0202,1.13,True,PASS,
+EICHERMOT.NS,Eicher Motors,7721.5,7548.98,True,2.29,True,2026-07-23,0.13,True,0.0175,1.4,True,PASS,
 INTERGLOBE.NS,Interglobe Aviation,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GRASIM.NS,Grasim Industries,3166.3,3144.17,True,0.7,True,2026-07-22,0.0,False,0.0194,1.1,False,FAIL,EMA not rising
+GRASIM.NS,Grasim Industries,3113.0,3138.51,False,,False,,,False,,,False,FAIL,Not in uptrend
 JIO.NS,Jio Financial Services,,,False,,False,,,False,,,False,FAIL,Insufficient data
-SHRIRAMFIN.NS,Shriram Finance,1058.8,1042.25,True,1.59,True,2026-07-22,0.0,True,0.0237,0.89,True,PASS,
+SHRIRAMFIN.NS,Shriram Finance,1025.8,1039.26,False,,False,,,False,,,False,FAIL,Not in uptrend
 TVS.NS,TVS Motors,,,False,,False,,,False,,,False,FAIL,Insufficient data
 LTI.NS,LTI Mindtree,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DLF.NS,DLF,651.5,661.48,False,,False,,,False,,,False,FAIL,Not in uptrend
-ADANIGREEN.NS,Adani Green Energy,1472.3,1525.42,False,,False,,,False,,,False,FAIL,Not in uptrend
+DLF.NS,DLF,642.2,657.98,False,,False,,,False,,,False,FAIL,Not in uptrend
+ADANIGREEN.NS,Adani Green Energy,1379.9,1498.96,False,,False,,,False,,,False,FAIL,Not in uptrend
 DIVIS.NS,Divis Laboratories,,,False,,False,,,False,,,False,FAIL,Insufficient data
-IRFC.NS,IRFC,87.39,88.74,False,,False,,,False,,,False,FAIL,Not in uptrend
+IRFC.NS,IRFC,87.03,88.43,False,,False,,,False,,,False,FAIL,Not in uptrend
 VARUN.NS,Varun Beverages,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BPCL.NS,Bharat Petroleum,314.0,312.99,True,0.32,True,2026-07-22,0.0,True,0.0239,0.95,True,PASS,
-HDFCLIFE.NS,HDFC Life Insurance,553.1,562.87,False,,False,,,False,,,False,FAIL,Not in uptrend
-M&M.NS,Tech Mahindra,3175.3,3151.14,True,0.77,True,2026-07-22,0.0,True,0.0175,0.97,True,PASS,
+BPCL.NS,Bharat Petroleum,309.85,312.42,False,,False,,,False,,,False,FAIL,Not in uptrend
+HDFCLIFE.NS,HDFC Life Insurance,550.95,560.7,False,,False,,,False,,,False,FAIL,Not in uptrend
+M&M.NS,Tech Mahindra,3229.7,3165.43,True,2.03,True,2026-07-23,0.0,True,0.0185,1.07,True,PASS,
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
-TRENT.NS,Trent,2887.3,2920.74,False,,False,,,False,,,False,FAIL,Not in uptrend
+TRENT.NS,Trent,2874.8,2912.39,False,,False,,,False,,,False,FAIL,Not in uptrend
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
-PIDILITIND.NS,Pidilite Industries,1608.6,1582.75,True,1.63,True,2026-07-22,0.0,False,0.018,0.86,False,FAIL,EMA not rising
+PIDILITIND.NS,Pidilite Industries,1564.2,1570.12,False,,False,,,False,,,False,FAIL,Not in uptrend
 CHOLAMANDALAM.NS,Cholamandalam Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BRITANNIA.NS,Britannia Industries,5485.5,5402.62,True,1.53,True,2026-07-22,0.0,True,0.0156,0.91,True,PASS,
+BRITANNIA.NS,Britannia Industries,5388.0,5399.96,False,,False,,,False,,,False,FAIL,Not in uptrend
 PUNJAB.NS,Punjab National Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 CANARA.NS,Canara Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AMBUJA.NS,Ambuja Cements,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -70,56 +70,56 @@ TORRENT.NS,Torrent Pharmaceuticals,,,False,,False,,,False,,,False,FAIL,Insuffici
 SAMVARDHANA.NS,Samvardhana Motherson International,,,False,,False,,,False,,,False,FAIL,Insufficient data
 VODAFONE.NS,Vodafone Idea,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ADANI.NS,Adani Energy Solutions,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GODREJCP.NS,Godrej Consumer Products,1068.8,1064.63,True,0.39,True,2026-07-22,0.0,False,0.0208,0.82,False,FAIL,EMA not rising
-TATAPOWER.NS,Tata Power,378.55,379.78,False,,False,,,False,,,False,FAIL,Not in uptrend
+GODREJCP.NS,Godrej Consumer Products,1058.6,1063.53,False,,False,,,False,,,False,FAIL,Not in uptrend
+TATAPOWER.NS,Tata Power,376.15,379.12,False,,False,,,False,,,False,FAIL,Not in uptrend
 BAJAJ.NS,Bajaj Holdings & Investments,,,False,,False,,,False,,,False,FAIL,Insufficient data
 CUMMINS.NS,Cummins,,,False,,False,,,False,,,False,FAIL,Insufficient data
 POWER.NS,Power Finance Corporation,,,False,,False,,,False,,,False,FAIL,Insufficient data
-CIPLA.NS,Cipla,1415.1,1431.38,False,,False,,,False,,,False,FAIL,Not in uptrend
+CIPLA.NS,Cipla,1393.0,1424.4,False,,False,,,False,,,False,FAIL,Not in uptrend
 UNION.NS,Union Bank of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
-HEROMOTOCO.NS,Hero Motocorp,4987.1,4947.93,True,0.79,True,2026-07-22,0.0,True,0.0175,0.69,True,PASS,
-POLYCAB.NS,Polycab,9090.5,9140.58,False,,False,,,False,,,False,FAIL,Not in uptrend
+HEROMOTOCO.NS,Hero Motocorp,5173.8,4988.99,True,3.7,True,2026-07-23,0.0,True,0.0201,1.06,True,PASS,
+POLYCAB.NS,Polycab,8935.0,9103.2,False,,False,,,False,,,False,FAIL,Not in uptrend
 INDUS.NS,Indus Towers,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BOSCH.NS,Bosch,,,False,,False,,,False,,,False,FAIL,Insufficient data
 INDIAN.NS,Indian Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TATA.NS,Tata Consumer Products,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GAIL.NS,GAIL,173.01,172.76,True,0.15,True,2026-07-22,0.0,True,0.0197,0.53,True,PASS,
+GAIL.NS,GAIL,171.99,172.62,False,,False,,,False,,,False,FAIL,Not in uptrend
 HDFC.NS,HDFC AMC,,,False,,False,,,False,,,False,FAIL,Insufficient data
 GMR.NS,GMR Airports,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SOLAR.NS,Solar Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ASHOK.NS,Ashok Leyland,,,False,,False,,,False,,,False,FAIL,Insufficient data
-SIEMENS.NS,Siemens,3649.4,3613.08,True,1.01,True,2026-07-22,0.0,True,0.0262,1.6,True,PASS,
-ABB.NS,ABB,7506.0,7321.44,True,2.52,True,2026-07-22,0.0,True,0.0313,3.1,True,PASS,
+SIEMENS.NS,Siemens,3686.3,3626.39,True,1.65,True,2026-07-23,0.03,True,0.027,1.59,True,PASS,
+ABB.NS,ABB,7528.0,7359.0,True,2.3,True,2026-07-23,0.37,True,0.0326,3.16,True,PASS,
 JINDAL.NS,Jindal Steel,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BSE.NS,BSE,3632.2,3698.39,False,,False,,,False,,,False,FAIL,Not in uptrend
-LODHA.NS,Lodha Developers,1161.0,1161.16,False,,False,,,False,,,False,FAIL,Not in uptrend
-SWIGGY.NS,Swiggy,263.85,267.23,False,,False,,,False,,,False,FAIL,Not in uptrend
+BSE.NS,BSE,3579.0,3676.68,False,,False,,,False,,,False,FAIL,Not in uptrend
+LODHA.NS,Lodha Developers,1146.4,1158.47,False,,False,,,False,,,False,FAIL,Not in uptrend
+SWIGGY.NS,Swiggy,261.55,266.2,False,,False,,,False,,,False,FAIL,Not in uptrend
 INDIAN.NS,Indian Hotels Company,,,False,,False,,,False,,,False,FAIL,Insufficient data
-HINDPETRO.NS,Hindustan Petroleum,395.2,398.53,False,,False,,,False,,,False,FAIL,Not in uptrend
-DRREDDY.NS,Dr Reddys Laboratories,1182.8,1231.86,False,,False,,,False,,,False,FAIL,Not in uptrend
+HINDPETRO.NS,Hindustan Petroleum,385.15,396.1,False,,False,,,False,,,False,FAIL,Not in uptrend
+DRREDDY.NS,Dr Reddys Laboratories,1166.3,1219.94,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Heavy Electricals,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAX.NS,Max Healthcare Institute,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,Apollo Hospitals,8938.0,8872.82,True,0.73,True,2026-07-22,0.0,True,0.0147,0.76,True,PASS,
+APOLLOHOSP.NS,Apollo Hospitals,8862.0,8870.85,False,,False,,,False,,,False,FAIL,Not in uptrend
 CG.NS,CG Power & Industrial Solutions,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MAZAGON.NS,Mazagon Dock Shipbuilders,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UNITED.NS,United Spirits,,,False,,False,,,False,,,False,FAIL,Insufficient data
 REC.NS,REC,,,False,,False,,,False,,,False,FAIL,Insufficient data
-PERSISTENT.NS,Persistent Systems,5098.8,5074.82,True,0.47,True,2026-07-22,0.15,True,0.0287,3.37,True,PASS,
-MARICO.NS,Marico,862.65,850.24,True,1.46,True,2026-07-22,0.0,True,0.0187,0.76,True,PASS,
+PERSISTENT.NS,Persistent Systems,5001.9,5061.56,False,,False,,,False,,,False,FAIL,Not in uptrend
+MARICO.NS,Marico,853.2,850.77,True,0.29,True,2026-07-23,0.0,True,0.0184,0.58,True,PASS,
 ICICI.NS,ICICI Lombard General Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ICICI.NS,ICICI Prudential Life Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SHREE.NS,Shree Cement,,,False,,False,,,False,,,False,FAIL,Insufficient data
-LUPIN.NS,Lupin,2406.9,2457.13,False,,False,,,False,,,False,FAIL,Not in uptrend
+LUPIN.NS,Lupin,2396.3,2446.07,False,,False,,,False,,,False,FAIL,Not in uptrend
 ADITYA.NS,Aditya Birla Capital,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DABUR.NS,Dabur India,426.5,428.39,False,,False,,,False,,,False,FAIL,Not in uptrend
+DABUR.NS,Dabur India,423.15,427.44,False,,False,,,False,,,False,FAIL,Not in uptrend
 ZYDUS.NS,Zydus Life Science,,,False,,False,,,False,,,False,FAIL,Insufficient data
-MANKIND.NS,Mankind Pharma,2544.7,2536.95,True,0.31,True,2026-07-22,0.0,True,0.0247,0.92,True,PASS,
-SRF.NS,SRF,2867.2,2841.58,True,0.9,True,2026-07-22,0.0,True,0.0277,1.53,True,PASS,
-HAVELLS.NS,Havells,1207.1,1195.17,True,1.0,True,2026-07-22,0.0,True,0.0266,0.73,True,PASS,
+MANKIND.NS,Mankind Pharma,2557.4,2540.67,True,0.66,True,2026-07-23,0.0,True,0.0254,0.89,True,PASS,
+SRF.NS,SRF,2622.7,2801.78,False,,False,,,False,,,False,FAIL,Not in uptrend
+HAVELLS.NS,Havells,1209.9,1197.84,True,1.01,True,2026-07-23,0.0,True,0.025,0.83,True,PASS,
 JSW.NS,JSW Energy,,,False,,False,,,False,,,False,FAIL,Insufficient data
 INFO.NS,Info Edge,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ONE.NS,One 97 Communications,,,False,,False,,,False,,,False,FAIL,Insufficient data
-NHPC.NS,NHPC,80.28,79.76,True,0.65,True,2026-07-22,0.0,True,0.0182,0.6,True,PASS,
+NHPC.NS,NHPC,80.25,79.85,True,0.5,True,2026-07-23,0.0,True,0.0201,0.58,True,PASS,
 HITACHI.NS,Hitachi Energy,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SBI.NS,SBI Cards,,,False,,False,,,False,,,False,FAIL,Insufficient data
 WAAREE.NS,Waaree Energies,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -127,75 +127,75 @@ PB.NS,PB FinTech,,,False,,False,,,False,,,False,FAIL,Insufficient data
 L&T.NS,L&T Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 RAIL.NS,Rail Vikas Nigam,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UNO.NS,UNO Minda,,,False,,False,,,False,,,False,FAIL,Insufficient data
-NYKAA.NS,Nykaa,326.6,323.81,True,0.86,True,2026-07-22,0.08,True,0.0216,2.02,True,PASS,
+NYKAA.NS,Nykaa,324.8,323.99,True,0.25,True,2026-07-23,0.08,True,0.0213,1.67,True,PASS,
 AU.NS,AU Small Finance Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-SUZLON.NS,Suzlon Energy,53.01,53.26,False,,False,,,False,,,False,FAIL,Not in uptrend
-NMDC.NS,NMDC,83.34,84.1,False,,False,,,False,,,False,FAIL,Not in uptrend
+SUZLON.NS,Suzlon Energy,52.39,53.1,False,,False,,,False,,,False,FAIL,Not in uptrend
+NMDC.NS,NMDC,82.64,83.83,False,,False,,,False,,,False,FAIL,Not in uptrend
 IDFC.NS,IDFC First Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-DIXON.NS,Dixon Technologies,13882.0,13834.77,True,0.34,True,2026-07-22,0.97,True,0.0324,4.22,True,PASS,
+DIXON.NS,Dixon Technologies,13829.0,13833.72,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Forge,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AUROBINDO.NS,Aurobindo Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TORRENT.NS,Torrent Power,,,False,,False,,,False,,,False,FAIL,Insufficient data
-INDUSINDBK.NS,Indusind Bank,1069.3,1027.73,True,4.04,True,2026-07-22,0.22,True,0.0214,2.66,True,PASS,
+INDUSINDBK.NS,Indusind Bank,1005.5,1023.69,False,,False,,,False,,,False,FAIL,Not in uptrend
 YES.NS,Yes Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-OIL.NS,Oil India,451.15,439.22,True,2.72,True,2026-07-22,0.14,True,0.0231,1.72,True,PASS,
-PRESTIGE.NS,Prestige Estates Projects,1663.1,1674.79,False,,False,,,False,,,False,FAIL,Not in uptrend
-FORTIS.NS,Fortis Healthcare,949.85,960.21,False,,False,,,False,,,False,FAIL,Not in uptrend
+OIL.NS,Oil India,458.8,442.78,True,3.62,True,2026-07-23,0.14,True,0.0226,2.07,True,PASS,
+PRESTIGE.NS,Prestige Estates Projects,1624.0,1665.56,False,,False,,,False,,,False,FAIL,Not in uptrend
+FORTIS.NS,Fortis Healthcare,943.65,957.2,False,,False,,,False,,,False,FAIL,Not in uptrend
 PHOENIX.NS,Phoenix Mills,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANK.NS,Bank of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
-UPL.NS,UPL,608.85,603.63,True,0.87,True,2026-07-22,0.31,True,0.025,1.54,True,PASS,
+UPL.NS,UPL,607.0,604.24,True,0.46,True,2026-07-23,0.05,True,0.0251,1.43,True,PASS,
 ORACLE.NS,Oracle Financial Services Software,,,False,,False,,,False,,,False,FAIL,Insufficient data
-ALKEM.NS,Alkem Laboratories,5585.0,5620.25,False,,False,,,False,,,False,FAIL,Not in uptrend
+ALKEM.NS,Alkem Laboratories,5602.0,5616.93,False,,False,,,False,,,False,FAIL,Not in uptrend
 FEDERAL.NS,Federal Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 OBEROI.NS,Oberoi Realty,,,False,,False,,,False,,,False,FAIL,Insufficient data
 GODREJ.NS,Godrej Properties,,,False,,False,,,False,,,False,FAIL,Insufficient data
 STEEL.NS,Steel Authority of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
 NALCO.NS,NALCO,,,False,,False,,,False,,,False,FAIL,Insufficient data
-PATANJALI.NS,Patanjali Foods,336.15,361.67,False,,False,,,False,,,False,FAIL,Not in uptrend
+PATANJALI.NS,Patanjali Foods,337.65,357.31,False,,False,,,False,,,False,FAIL,Not in uptrend
 LAURUS.NS,Laurus Labs,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GLENMARK.NS,Glenmark Pharmaceuticals,2199.9,2245.43,False,,False,,,False,,,False,FAIL,Not in uptrend
+GLENMARK.NS,Glenmark Pharmaceuticals,2205.1,2238.1,False,,False,,,False,,,False,FAIL,Not in uptrend
 MAX.NS,Max Financial Services,,,False,,False,,,False,,,False,FAIL,Insufficient data
 COLGATE.NS,Colgate Palmolive,,,False,,False,,,False,,,False,FAIL,Insufficient data
-MCX.NS,MCX,2803.9,2807.26,False,,False,,,False,,,False,FAIL,Not in uptrend
-IRCTC.NS,IRCTC,494.05,501.19,False,,False,,,False,,,False,FAIL,Not in uptrend
-COFORGE.NS,Coforge,1471.4,1498.65,False,,False,,,False,,,False,FAIL,Not in uptrend
+MCX.NS,MCX,2752.6,2797.33,False,,False,,,False,,,False,FAIL,Not in uptrend
+IRCTC.NS,IRCTC,494.05,499.89,False,,False,,,False,,,False,FAIL,Not in uptrend
+COFORGE.NS,Coforge,1439.9,1487.97,False,,False,,,False,,,False,FAIL,Not in uptrend
 BHARAT.NS,Bharat Dynamics,,,False,,False,,,False,,,False,FAIL,Insufficient data
-APOLLOHOSP.NS,APL Apollo Tubes,8938.0,8872.82,True,0.73,True,2026-07-22,0.0,True,0.0147,0.76,True,PASS,
-MPHASIS.NS,Mphasis,2273.8,2334.11,False,,False,,,False,,,False,FAIL,Not in uptrend
-BIOCON.NS,Biocon,437.95,431.83,True,1.42,True,2026-07-22,0.94,True,0.0303,2.4,True,PASS,
+APOLLOHOSP.NS,APL Apollo Tubes,8862.0,8870.85,False,,False,,,False,,,False,FAIL,Not in uptrend
+MPHASIS.NS,Mphasis,2232.4,2315.62,False,,False,,,False,,,False,FAIL,Not in uptrend
+BIOCON.NS,Biocon,435.2,432.44,True,0.64,True,2026-07-23,0.92,True,0.0288,2.26,True,PASS,
 KALYAN.NS,Kalyan Jewellers,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TUBE.NS,Tube Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PI.NS,PI Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 360.NS,360 One WAM,,,False,,False,,,False,,,False,FAIL,Insufficient data
-VOLTAS.NS,Voltas,1308.0,1334.75,False,,False,,,False,,,False,FAIL,Not in uptrend
-HUDCO.NS,HUDCO,198.32,203.32,False,,False,,,False,,,False,FAIL,Not in uptrend
-SUPREME.NS,Supreme Industries,44.73,46.1,False,,False,,,False,,,False,FAIL,Not in uptrend
-PETRONET.NS,Petronet LNG,279.65,277.09,True,0.92,True,2026-07-22,0.0,False,0.0185,0.48,False,FAIL,EMA not rising
-KEI.NS,KEI Industries,4971.0,5035.46,False,,False,,,False,,,False,FAIL,Not in uptrend
-IREDA.NS,IREDA,119.68,122.09,False,,False,,,False,,,False,FAIL,Not in uptrend
+VOLTAS.NS,Voltas,1310.2,1330.29,False,,False,,,False,,,False,FAIL,Not in uptrend
+HUDCO.NS,HUDCO,196.83,202.14,False,,False,,,False,,,False,FAIL,Not in uptrend
+SUPREME.NS,Supreme Industries,44.53,45.82,False,,False,,,False,,,False,FAIL,Not in uptrend
+PETRONET.NS,Petronet LNG,269.45,275.7,False,,False,,,False,,,False,FAIL,Not in uptrend
+KEI.NS,KEI Industries,4897.5,5010.38,False,,False,,,False,,,False,FAIL,Not in uptrend
+IREDA.NS,IREDA,119.58,121.63,False,,False,,,False,,,False,FAIL,Not in uptrend
 CONTAINER.NS,Container Corporation of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
 DALMIA.NS,Dalmia Bharat,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PAGE.NS,Page Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
-ASTRAL.NS,Astral,1430.8,1389.52,True,2.97,True,2026-07-22,0.0,True,0.0229,1.91,True,PASS,
-PREMIER.NS,Premier Energies,2.88,2.92,False,,False,,,False,,,False,FAIL,Not in uptrend
+ASTRAL.NS,Astral,1413.4,1393.86,True,1.4,True,2026-07-23,0.0,True,0.0223,1.59,True,PASS,
+PREMIER.NS,Premier Energies,2.88,2.91,False,,False,,,False,,,False,FAIL,Not in uptrend
 BLUE.NS,Blue Star,,,False,,False,,,False,,,False,FAIL,Insufficient data
 JUBILANT.NS,Jubilant FoodWorks,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TATA.NS,Tata Elxsi,,,False,,False,,,False,,,False,FAIL,Insufficient data
-NBCC.NS,NBCC,94.74,97.82,False,,False,,,False,,,False,FAIL,Not in uptrend
+NBCC.NS,NBCC,93.15,96.97,False,,False,,,False,,,False,FAIL,Not in uptrend
 KPIT.NS,KPIT Technologies,,,False,,False,,,False,,,False,FAIL,Insufficient data
 EXIDE.NS,Exide Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
-CDSL.NS,CDSL,1339.7,1375.72,False,,False,,,False,,,False,FAIL,Not in uptrend
-DELHIVERY.NS,Delhivery,467.6,491.1,False,,False,,,False,,,False,FAIL,Not in uptrend
+CDSL.NS,CDSL,1323.4,1366.21,False,,False,,,False,,,False,FAIL,Not in uptrend
+DELHIVERY.NS,Delhivery,465.45,486.43,False,,False,,,False,,,False,FAIL,Not in uptrend
 SONA.NS,Sona BLW Precision Forgings,,,False,,False,,,False,,,False,FAIL,Insufficient data
-LICI.NS,LIC Housing Finance,423.3,432.09,False,,False,,,False,,,False,FAIL,Not in uptrend
-IIFL.NS,IIFL Finance,570.35,554.75,True,2.81,True,2026-07-22,0.05,True,0.0361,3.13,True,PASS,
-NUVAMA.NS,Nuvama Wealth Management,1882.4,1879.64,True,0.15,True,2026-07-22,0.0,True,0.0333,2.17,True,PASS,
-KAYNES.NS,Kaynes Technology India,3252.4,3310.98,False,,False,,,False,,,False,FAIL,Not in uptrend
+LICI.NS,LIC Housing Finance,421.4,430.15,False,,False,,,False,,,False,FAIL,Not in uptrend
+IIFL.NS,IIFL Finance,568.75,557.3,True,2.06,True,2026-07-23,0.05,True,0.0356,2.91,True,PASS,
+NUVAMA.NS,Nuvama Wealth Management,1947.2,1891.93,True,2.92,True,2026-07-23,0.0,True,0.0343,1.98,True,PASS,
+KAYNES.NS,Kaynes Technology India,3240.3,3298.13,False,,False,,,False,,,False,FAIL,Not in uptrend
 TATA.NS,Tata Technologies,,,False,,False,,,False,,,False,FAIL,Insufficient data
-SYNGENE.NS,Syngene International,406.4,417.22,False,,False,,,False,,,False,FAIL,Not in uptrend
-MANAPPURAM.NS,Manappuram Finance,350.2,337.17,True,3.86,True,2026-07-22,0.0,True,0.0287,1.88,True,PASS,
-PNB.NS,PNB Housing Finance,110.73,108.1,True,2.44,True,2026-07-22,0.0,True,0.0231,1.55,True,PASS,
+SYNGENE.NS,Syngene International,403.25,414.68,False,,False,,,False,,,False,FAIL,Not in uptrend
+MANAPPURAM.NS,Manappuram Finance,352.45,339.95,True,3.68,True,2026-07-23,0.0,True,0.0289,2.17,True,PASS,
+PNB.NS,PNB Housing Finance,110.15,108.47,True,1.55,True,2026-07-23,0.0,True,0.0216,1.58,True,PASS,
 PIRAMAL.NS,Piramal Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANDHAN.NS,Bandhan Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-AMBER.NS,Amber Enterprises,7479.0,7701.86,False,,False,,,False,,,False,FAIL,Not in uptrend
+AMBER.NS,Amber Enterprises,7430.0,7652.43,False,,False,,,False,,,False,FAIL,Not in uptrend
 INOX.NS,Inox Wind,,,False,,False,,,False,,,False,FAIL,Insufficient data
