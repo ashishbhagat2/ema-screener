@@ -43,7 +43,7 @@ HINDALCO.NS,Hindalco Industries,974.45,958.41,True,1.67,True,2026-07-31,0.0,True
 SBILIFE.NS,SBI Life Insurance,1882.0,1864.91,True,0.92,True,2026-07-31,0.08,True,0.0202,1.12,True,PASS,
 EICHERMOT.NS,Eicher Motors,7833.5,7669.21,True,2.14,True,2026-07-31,0.15,True,0.0198,2.01,True,PASS,
 INTERGLOBE.NS,Interglobe Aviation,,,False,,False,,,False,,,False,FAIL,Insufficient data
-GRASIM.NS,Grasim Industries,3100.8,3115.91,False,,False,,,False,,,False,FAIL,Not in uptrend
+GRASIM.NS,Grasim Industries,,3119.27,False,,False,,,False,,,False,FAIL,Not in uptrend
 JIO.NS,Jio Financial Services,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SHRIRAMFIN.NS,Shriram Finance,1046.7,1037.28,True,0.91,True,2026-07-31,0.0,True,0.0307,1.14,True,PASS,
 TVS.NS,TVS Motors,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -59,9 +59,9 @@ M&M.NS,Tech Mahindra,3398.5,3248.49,True,4.62,True,2026-07-31,0.0,True,0.0286,1.
 BANK.NS,Bank of Baroda,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TRENT.NS,Trent,3005.9,2956.08,True,1.69,True,2026-07-31,0.0,True,0.021,1.18,True,PASS,
 MUTHOOT.NS,Muthoot Finance,,,False,,False,,,False,,,False,FAIL,Insufficient data
-PIDILITIND.NS,Pidilite Industries,1611.4,1602.13,True,0.58,True,2026-07-31,0.0,True,0.0212,1.25,True,PASS,
+PIDILITIND.NS,Pidilite Industries,,1600.07,False,,False,,,False,,,False,FAIL,Not in uptrend
 CHOLAMANDALAM.NS,Cholamandalam Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BRITANNIA.NS,Britannia Industries,5416.5,5368.0,True,0.9,True,2026-07-31,0.0,True,0.0188,1.13,True,PASS,
+BRITANNIA.NS,Britannia Industries,,5357.22,False,,False,,,False,,,False,FAIL,Not in uptrend
 PUNJAB.NS,Punjab National Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 CANARA.NS,Canara Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 AMBUJA.NS,Ambuja Cements,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -114,7 +114,7 @@ ADITYA.NS,Aditya Birla Capital,,,False,,False,,,False,,,False,FAIL,Insufficient 
 DABUR.NS,Dabur India,421.45,426.34,False,,False,,,False,,,False,FAIL,Not in uptrend
 ZYDUS.NS,Zydus Life Science,,,False,,False,,,False,,,False,FAIL,Insufficient data
 MANKIND.NS,Mankind Pharma,2469.6,2545.67,False,,False,,,False,,,False,FAIL,Not in uptrend
-SRF.NS,SRF,2622.5,2678.94,False,,False,,,False,,,False,FAIL,Not in uptrend
+SRF.NS,SRF,,2691.48,False,,False,,,False,,,False,FAIL,Not in uptrend
 HAVELLS.NS,Havells,1260.7,1231.61,True,2.36,True,2026-07-31,0.03,True,0.0213,1.77,True,PASS,
 JSW.NS,JSW Energy,,,False,,False,,,False,,,False,FAIL,Insufficient data
 INFO.NS,Info Edge,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -139,8 +139,8 @@ TORRENT.NS,Torrent Power,,,False,,False,,,False,,,False,FAIL,Insufficient data
 INDUSINDBK.NS,Indusind Bank,1012.45,1012.05,True,0.04,True,2026-07-31,0.0,True,0.0226,1.79,True,PASS,
 YES.NS,Yes Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
 OIL.NS,Oil India,458.6,448.96,True,2.15,True,2026-07-31,0.0,True,0.0273,1.96,True,PASS,
-PRESTIGE.NS,Prestige Estates Projects,1616.2,1642.07,False,,False,,,False,,,False,FAIL,Not in uptrend
-FORTIS.NS,Fortis Healthcare,945.0,949.86,False,,False,,,False,,,False,FAIL,Not in uptrend
+PRESTIGE.NS,Prestige Estates Projects,,1647.82,False,,False,,,False,,,False,FAIL,Not in uptrend
+FORTIS.NS,Fortis Healthcare,,950.94,False,,False,,,False,,,False,FAIL,Not in uptrend
 PHOENIX.NS,Phoenix Mills,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANK.NS,Bank of India,,,False,,False,,,False,,,False,FAIL,Insufficient data
 UPL.NS,UPL,604.3,604.37,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -197,5 +197,5 @@ MANAPPURAM.NS,Manappuram Finance,371.85,358.26,True,3.79,True,2026-07-31,0.36,Tr
 PNB.NS,PNB Housing Finance,112.71,110.73,True,1.79,True,2026-07-31,0.03,True,0.0174,2.24,True,PASS,
 PIRAMAL.NS,Piramal Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANDHAN.NS,Bandhan Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-AMBER.NS,Amber Enterprises,7440.5,7446.65,False,,False,,,False,,,False,FAIL,Not in uptrend
+AMBER.NS,Amber Enterprises,,7448.02,False,,False,,,False,,,False,FAIL,Not in uptrend
 INOX.NS,Inox Wind,,,False,,False,,,False,,,False,FAIL,Insufficient data
