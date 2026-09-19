@@ -105,7 +105,7 @@ MAZAGON.NS,Mazagon Dock Shipbuilders,,,False,,False,,,False,,,False,FAIL,Insuffi
 UNITED.NS,United Spirits,,,False,,False,,,False,,,False,FAIL,Insufficient data
 REC.NS,REC,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PERSISTENT.NS,Persistent Systems,5416.0,5503.63,False,,False,,,False,,,False,FAIL,Not in uptrend
-MARICO.NS,Marico,803.9,810.45,False,,False,,,False,,,False,FAIL,Not in uptrend
+MARICO.NS,Marico,803.9,808.97,False,,False,,,False,,,False,FAIL,Not in uptrend
 ICICI.NS,ICICI Lombard General Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 ICICI.NS,ICICI Prudential Life Insurance,,,False,,False,,,False,,,False,FAIL,Insufficient data
 SHREE.NS,Shree Cement,,,False,,False,,,False,,,False,FAIL,Insufficient data
@@ -192,7 +192,7 @@ IIFL.NS,IIFL Finance,600.2,607.26,False,,False,,,False,,,False,FAIL,Not in uptre
 NUVAMA.NS,Nuvama Wealth Management,1713.7,1740.43,False,,False,,,False,,,False,FAIL,Not in uptrend
 KAYNES.NS,Kaynes Technology India,3515.0,3520.0,False,,False,,,False,,,False,FAIL,Not in uptrend
 TATA.NS,Tata Technologies,,,False,,False,,,False,,,False,FAIL,Insufficient data
-SYNGENE.NS,Syngene International,369.05,384.05,False,,False,,,False,,,False,FAIL,Not in uptrend
+SYNGENE.NS,Syngene International,369.05,383.2,False,,False,,,False,,,False,FAIL,Not in uptrend
 MANAPPURAM.NS,Manappuram Finance,319.15,326.64,False,,False,,,False,,,False,FAIL,Not in uptrend
 PNB.NS,PNB Housing Finance,117.27,116.42,True,0.73,True,2026-09-18,0.0,True,0.0176,0.48,True,PASS,
 PIRAMAL.NS,Piramal Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
