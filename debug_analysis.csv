@@ -30,11 +30,11 @@ WIPRO.NS,Wipro,159.35,162.19,False,,False,,,False,,,False,FAIL,Not in uptrend
 ETERNAL.NS,Eternal,313.9,326.36,False,,False,,,False,,,False,FAIL,Not in uptrend
 ASIANPAINT.NS,Asian Paints,2407.0,2426.86,False,,False,,,False,,,False,FAIL,Not in uptrend
 HINDUSTAN.NS,Hindustan Zinc,,,False,,False,,,False,,,False,FAIL,Insufficient data
-BAJAJ-AUTO.NS,Bajaj Auto,10045.0,10981.29,False,,False,,,False,,,False,FAIL,Not in uptrend
+BAJAJ-AUTO.NS,Bajaj Auto,10045.0,10981.3,False,,False,,,False,,,False,FAIL,Not in uptrend
 COALINDIA.NS,Coal India,420.4,422.42,False,,False,,,False,,,False,FAIL,Not in uptrend
 ADANIENT.NS,Adani Enterprises,2816.8,2914.91,False,,False,,,False,,,False,FAIL,Not in uptrend
 POWERGRID.NS,Power Grid Corporation of India,254.55,262.77,False,,False,,,False,,,False,FAIL,Not in uptrend
-NESTLEIND.NS,Nestle,1307.7,1346.57,False,,False,,,False,,,False,FAIL,Not in uptrend
+NESTLEIND.NS,Nestle,1307.7,1346.58,False,,False,,,False,,,False,FAIL,Not in uptrend
 AVENUE.NS,Avenue Supermarts DMart,,,False,,False,,,False,,,False,FAIL,Insufficient data
 VEDL.NS,Vedanta,252.05,260.81,False,,False,,,False,,,False,FAIL,Not in uptrend
 IOC.NS,Indian Oil Corporation,131.34,134.26,False,,False,,,False,,,False,FAIL,Not in uptrend
@@ -197,5 +197,5 @@ MANAPPURAM.NS,Manappuram Finance,308.9,318.31,False,,False,,,False,,,False,FAIL,
 PNB.NS,PNB Housing Finance,109.57,113.97,False,,False,,,False,,,False,FAIL,Not in uptrend
 PIRAMAL.NS,Piramal Pharma,,,False,,False,,,False,,,False,FAIL,Insufficient data
 BANDHAN.NS,Bandhan Bank,,,False,,False,,,False,,,False,FAIL,Insufficient data
-AMBER.NS,Amber Enterprises,6500.0,6837.18,False,,False,,,False,,,False,FAIL,Not in uptrend
+AMBER.NS,Amber Enterprises,6500.0,6837.19,False,,False,,,False,,,False,FAIL,Not in uptrend
 INOX.NS,Inox Wind,,,False,,False,,,False,,,False,FAIL,Insufficient data
