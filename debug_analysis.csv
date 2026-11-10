@@ -168,7 +168,7 @@ TUBE.NS,Tube Investment,,,False,,False,,,False,,,False,FAIL,Insufficient data
 PI.NS,PI Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 360.NS,360 One WAM,,,False,,False,,,False,,,False,FAIL,Insufficient data
 VOLTAS.NS,Voltas,1090.1,1060.1,True,2.83,True,2026-11-09,0.56,True,0.0403,3.48,True,PASS,
-HUDCO.NS,HUDCO,169.14,155.34,True,8.88,True,2026-11-09,0.0,True,0.0404,4.09,True,PASS,
+HUDCO.NS,HUDCO,167.79,154.1,True,8.88,True,2026-11-09,0.0,True,0.0404,4.09,True,PASS,
 SUPREME.NS,Supreme Industries,31.88,30.6,True,4.18,True,2026-11-09,0.16,False,0.0828,4.75,True,FAIL,High volatility (0.0828 >= 0.05)
 PETRONET.NS,Petronet LNG,320.45,302.37,True,5.98,True,2026-11-09,0.0,True,0.0277,3.23,True,PASS,
 KEI.NS,KEI Industries,4002.7,3984.0,True,0.47,True,2026-11-09,0.0,False,0.0285,3.12,False,FAIL,EMA not rising
@@ -181,7 +181,7 @@ PREMIER.NS,Premier Energies,2.86,2.76,True,3.56,True,2026-11-09,0.0,False,0.0645
 BLUE.NS,Blue Star,,,False,,False,,,False,,,False,FAIL,Insufficient data
 JUBILANT.NS,Jubilant FoodWorks,,,False,,False,,,False,,,False,FAIL,Insufficient data
 TATA.NS,Tata Elxsi,,,False,,False,,,False,,,False,FAIL,Insufficient data
-NBCC.NS,NBCC,80.4,76.33,True,5.33,True,2026-11-09,0.0,True,0.0424,3.78,True,PASS,
+NBCC.NS,NBCC,80.15,76.1,True,5.33,True,2026-11-09,0.0,True,0.0424,3.78,True,PASS,
 KPIT.NS,KPIT Technologies,,,False,,False,,,False,,,False,FAIL,Insufficient data
 EXIDE.NS,Exide Industries,,,False,,False,,,False,,,False,FAIL,Insufficient data
 CDSL.NS,CDSL,1356.0,1304.1,True,3.98,True,2026-11-09,0.09,True,0.0284,2.56,True,PASS,
